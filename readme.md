@@ -13,7 +13,7 @@ From this:
 
 To this:
 
-![alt text](https://github.com/mazzucchelli/screenscraper/blob/develop/pgscreens/0-example-page.png "example.com merge images")
+![alt text](https://github.com/mazzucchelli/screenscraper/blob/master/pgscreens/0-example.com.png "example.com merge images")
 
 ### Dependencies
 
