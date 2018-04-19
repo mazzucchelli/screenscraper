@@ -1,9 +1,6 @@
 [ 
     {
-        "title": "A list Apart",
-        "url": "http://alistapart.com"
-    }, {
-        "title": "Smashing magazine",
-        "url": "https://www.smashingmagazine.com"
+        "title": "example.com",
+        "url": "http://example.com"
     }
 ]
