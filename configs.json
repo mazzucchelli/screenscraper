@@ -1,0 +1,7 @@
+{
+    "viewports": [375, 768, 1280],
+    "folders": {
+        "viewportScreens": "./images/viewports/",
+        "mergedScreens": "./images/merged/"
+    }
+}
