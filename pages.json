@@ -1,6 +1,327 @@
 [ 
     {
-        "title": "example page",
-        "url": "https://www.example.com"
+        "title": "Forever bvlgari",
+        "url": "https://www.bulgari.com/it-it/heritage-forever"
+    }, {
+        "title": "Brand experience",
+        "url": "https://www.bulgari.com/it-it/heritage-experience"
+    }, {
+        "title": "Temples",
+        "url": "https://www.bulgari.com/it-it/temples"
+    }, {
+        "title": "Persone e carriere",
+        "url": "https://www.bulgari.com/it-it/about-bulgari-people-and-careers"
+    }, {
+        "title": "Responsabilità sociale di impresa",
+        "url": "https://www.bulgari.com/it-it/about-bulgari-csr"
+    }, {
+        "title": "Raise your hand",
+        "url": "https://www.bulgari.com/it-it/save-the-children"
+    }, {
+        "title": "Gioelleria",
+        "url": "https://www.bulgari.com/it-it/Customer_care_Jewellery"
+    }, {
+        "title": "Orologi",
+        "url": "https://www.bulgari.com/it-it/Customer_care_watches"
+    }, {
+        "title": "Accessori",
+        "url": "https://www.bulgari.com/it-it/Customer_care_accessories_cover"
+    }, {
+        "title": "Contattaci",
+        "url": "https://www.bulgari.com/it-it/contactus/sendemail/"
+    }, {
+        "title": "Stories",
+        "url": "https://www.bulgari.com/it-it/magazine"
+    }, {
+        "title": "Eventi",
+        "url": "https://www.bulgari.com/it-it/magazine-events"
+    }, {
+        "title": "Lifestyle",
+        "url": "https://www.bulgari.com/it-it/magazine-lifestyle"
+    }, {
+        "title": "Anelli",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&product_detail_one=228"
+    }, {
+        "title": "Collane",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&product_detail_one=218"
+    }, {
+        "title": "Bracciali",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&product_detail_one=216"
+    }, {
+        "title": "Orecchini",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&product_detail_one=221"
+    }, {
+        "title": "Festa",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=978"
+    }, {
+        "title": "Serpenti",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=106"
+    }, {
+        "title": "Divas' dream",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=667"
+    }, {
+        "title": "Le magnifiche creazioni",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=883"
+    }, {
+        "title": "Color treasures",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=882"
+    }, {
+        "title": "Giardini italiani",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=820"
+    }, {
+        "title": "Fiore di bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=881"
+    }, {
+        "title": "Monete",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=80"
+    }, {
+        "title": "Parentesi",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=861&sign=92"
+    }, {
+        "title": "L'alta gioielleria bvlgari",
+        "url": "https://www.bulgari.com/it-it/high-jewellery"
+    }, {
+        "title": "Anelli",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&product_detail_one=228"
+    }, {
+        "title": "Collane",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&product_detail_one=218"
+    }, {
+        "title": "Bracciali",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&product_detail_one=216"
+    }, {
+        "title": "Orecchini",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&product_detail_one=221"
+    }, {
+        "title": "Gemelli",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&product_detail_one=220"
+    }, {
+        "title": "B.Zero1",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&sign=18"
+    }, {
+        "title": "Divas' dream",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=55"
+    }, {
+        "title": "Serpenti",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=105"
+    }, {
+        "title": "Bvlgari bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=22"
+    }, {
+        "title": "Mvsa",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=568"
+    }, {
+        "title": "Monete",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=81"
+    }, {
+        "title": "Parentesi",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&sign=92&aesthetic_line=93"
+    }, {
+        "title": "Save the children",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&sign=35&aesthetic_line=36"
+    }, {
+        "title": "La gioielleria bvlgari",
+        "url": "https://www.bulgari.com/it-it/jewellery"
+    }, {
+        "title": "Fedi nuziali",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&bridal_occasion=859"
+    }, {
+        "title": "Anelli di fidanzamento",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&bridal_occasion=857"
+    }, {
+        "title": "Ricorrenze romantiche",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&bridal_occasion=858"
+    }, {
+        "title": "Crea il tuo anello",
+        "url": "https://www.bulgari.com/it-it/bridalconfigurator"
+    }, {
+        "title": "Incontro d'amore",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=854"
+    }, {
+        "title": "Infinito",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=964"
+    }, {
+        "title": "Corona",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=49"
+    }, {
+        "title": "Dedicata a Venezia",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=52"
+    }, {
+        "title": "Eternity bands",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=60"
+    }, {
+        "title": "Fedi",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=61"
+    }, {
+        "title": "Marry me",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=78"
+    }, {
+        "title": "Griffe",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=315&aesthetic_line=64"
+    }, {
+        "title": "Bvlgari bridal collection",
+        "url": "https://www.bulgari.com/it-it/bridal"
+    }, {
+        "title": "Serpenti",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=106"
+    }, {
+        "title": "Lvcea",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=594"
+    }, {
+        "title": "Bvlgari bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=21&gender=236"
+    }, {
+        "title": "B.Zero1",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=18"
+    }, {
+        "title": "Divas' dream",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&aesthetic_line=55"
+    }, {
+        "title": "Orologi di alta gioielleria",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=595"
+    }, {
+        "title": "Octo",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=84"
+    }, {
+        "title": "Bvlgari bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=21&gender=237"
+    }, {
+        "title": "Diagono",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&sign=53&gender=237"
+    }, {
+        "title": "Haute horlogerie",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=317&product_detail_one=884&gender=237"
+    }, {
+        "title": "Orologi bvlgari",
+        "url": "https://www.bulgari.com/it-it/watches"
+    }, {
+        "title": "Borse donna",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=125&product_detail_two=145&gender=236"
+    }, {
+        "title": "Portafogli",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=126&product_detail_two=152"
+    }, {
+        "title": "Porta biglietti da visita e portamonete",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=126&product_detail_two=147"
+    }, {
+        "title": "Portachiavi",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=126&product_detail_two=149&product_detail_three=212"
+    }, {
+        "title": "Borse uomo",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=125&gender=237"
+    }, {
+        "title": "Serpenti hypnotic",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&aesthetic_line=665"
+    }, {
+        "title": "Serpenti",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&sign=106"
+    }, {
+        "title": "Spring capsule collection",
+        "url": "https://www.bulgari.com/it-it/new-arrivals/spring-capsule-collection.html"
+    }, {
+        "title": "Bvlgari bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&sign=21"
+    }, {
+        "title": "Evening & cocktail",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&aesthetic_line=559"
+    }, {
+        "title": "Bvlgari bvlgari man",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&aesthetic_line=810"
+    }, {
+        "title": "Bvlgari bvckle",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&aesthetic_line=874"
+    }, {
+        "title": "Divas' dream",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&sign=667"
+    }, {
+        "title": "Accessori bvlgari",
+        "url": "https://www.bulgari.com/it-it/accessories"
+    }, {
+        "title": "Occhiali",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=401"
+    }, {
+        "title": "Accessories jewellery",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_three=210"
+    }, {
+        "title": "Charm",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_three=211"
+    }, {
+        "title": "Sciarpe e stole",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_two=148"
+    }, {
+        "title": "Gifts",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_two=143"
+    }, {
+        "title": "Cravatte",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_two=151"
+    }, {
+        "title": "Cinture",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=126&product_detail_two=146"
+    }, {
+        "title": "Serpenti hypnotic",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&aesthetic_line=665"
+    }, {
+        "title": "Serpenti",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&sign=106"
+    }, {
+        "title": "Spring capsule collection",
+        "url": "https://www.bulgari.com/it-it/new-arrivals/spring-capsule-collection.html"
+    }, {
+        "title": "Bvlgari bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&sign=21"
+    }, {
+        "title": "Divas' dream",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=401&aesthetic_line=55"
+    }, {
+        "title": "Diagono",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=401&aesthetic_line=558"
+    }, {
+        "title": "Le gemme",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=314&product_detail_one=401&aesthetic_line=381"
+    }, {
+        "title": "Accessori bvlgari",
+        "url": "https://www.bulgari.com/it-it/accessories"
+    }, {
+        "title": "Goldea",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=814"
+    }, {
+        "title": "Splendida Bvlgari",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=921"
+    }, {
+        "title": "Omnia",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=85"
+    }, {
+        "title": "Petits et mamans",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&aesthetic_line=95"
+    }, {
+        "title": "Bvlgari man",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=33"
+    }, {
+        "title": "Aqva",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=12"
+    }, {
+        "title": "The classic",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=24&gender=237"
+    }, {
+        "title": "Blv pour homme",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&aesthetic_line=26"
+    }, {
+        "title": "Bvlgari le gemme",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=446"
+    }, {
+        "title": "Eau parfumée",
+        "url": "https://www.bulgari.com/it-it/products.html?root_level=316&sign=57"
+    }, {
+        "title": "Le fragranze bvlgari",
+        "url": "https://www.bulgari.com/it-it/fragrances"
+    }, {
+        "title": "Regali per lui",
+        "url": "https://www.bulgari.com/it-it/giftideas/for-him-it.html"
+    }, {
+        "title": "Regali per lei",
+        "url": "https://www.bulgari.com/it-it/giftideas/for-her-it.html"
+    }, {
+        "title": "Hotel & resorts",
+        "url": "https://www.bulgarihotels.com/it_IT/"
     }
 ]
