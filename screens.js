@@ -31,6 +31,10 @@ let screenscrape = function(i) {
             promises.push(browser.newPage().then(async page => {
                 await page.goto(pages[i].url, { timeout: 0 });
                 await page.setViewport({width: vp, height: 1});
+                await page.evaluate(() => {
+                    window.scrollBy(0, window.innerHeight);
+                  })
+                // await timeout(5000)
                 await page.screenshot({
                     path: vpdir + i + '-' + index + '-' + vp + 'px-' + imageName + '.png',
                     fullPage: true
