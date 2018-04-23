@@ -1,27 +1,32 @@
 const puppeteer = require('puppeteer');
-var fs = require('fs');
+const fs = require('fs');
 const sizeOf = require('image-size');
 const path = require('path');
 const Canvas = require('canvas');
+const ora = require('ora');
+const chalk = require('chalk');
+const leftPad = require('left-pad');
+
 const pages = require('./pages.json');
 
-const vpdir = './vpscreens/';
-const pgdir = './pgscreens/';
+const viewportsDir = './vpscreens/';
+const pagesDir = './pgscreens/';
 const viewports = [375, 768, 1280];
 let scrapestatus = 0;
 
-if ( !fs.existsSync(vpdir) ){
-    fs.mkdirSync(vpdir);
+if ( !fs.existsSync(viewportsDir) ){
+    fs.mkdirSync(viewportsDir);
 }
 
-if ( !fs.existsSync(pgdir) ){
-    fs.mkdirSync(pgdir);
+if ( !fs.existsSync(pagesDir) ){
+    fs.mkdirSync(pagesDir);
 }
 
 let screenscrape = function(i) {
-    console.log(" -- screenscrape is running on:", pages[i].title);
-
-    let imageName = pages[i].title.replace(/ /g, "-").replace(/'/g, "").toLowerCase();
+    const spinner = ora('[' + leftPad((scrapestatus + 1), String(pages.length).length, 0) + ' of ' + pages.length + '] - ' + chalk.yellow(pages[i].title));
+    spinner.color = 'yellow';
+    spinner.start()
+    let imageName = pages[i].title.replace(/ /g, '-').replace(/'/g, '').toLowerCase();
 
     puppeteer.launch().then(async browser => {
         const promises = [];
@@ -34,13 +39,16 @@ let screenscrape = function(i) {
                 await page.evaluate(() => {
                     window.scrollBy(0, window.innerHeight);
                   })
-                // await timeout(5000)
+                // await page.setDefaultNavigationTimeout(5000)
                 await page.screenshot({
-                    path: vpdir + i + '-' + index + '-' + vp + 'px-' + imageName + '.png',
+                    path: viewportsDir + (i + 1) + '-' + index + '-' + vp + 'px-' + imageName + '.png',
                     fullPage: true
                 });
-                await images.push(i + '-' + index + '-' + vp + 'px-' + imageName + '.png');
+                await images.push((i + 1) + '-' + index + '-' + vp + 'px-' + imageName + '.png');
                 await page.close();
+                await function() {
+                    return console.log('await!');
+                }
             }));
         });
 
@@ -52,48 +60,34 @@ let screenscrape = function(i) {
             
             images.sort((a, b) => a.localeCompare(b));
             images.forEach(img => {
-                let imageDimension = sizeOf(path.join(__dirname, 'vpscreens', img));
+                let imageDimension = sizeOf(path.join(__dirname, viewportsDir.replace(/[/.]/g, ''), img));
                 imagesWidth.push(imageDimension.width);
                 imagesHeight.push(imageDimension.height);
             })
 
-            let finalWidth = imagesWidth.reduce(function(a, b) {
-                return a + b;
-            }, 0);
+            let finalWidth = imagesWidth.reduce(function(a, b) { return a + b }, 0);
             let finalHeight = Math.max(...imagesHeight);
-
-            // console.log('finalWidth', finalWidth);
-            // console.log('finalHeight', finalHeight);
-
             let Image = Canvas.Image;
             let canvas = Canvas.createCanvas(finalWidth, finalHeight);
             let ctx = canvas.getContext('2d');
             let xpos = 0;
             let singleImg;
 
-            // console.log('images', images);
-            // console.log('---');
-            // console.log('imagesWidth', imagesWidth);
-            // console.log('---');
-
             images.forEach((img, i) => {
-                // Draw images in the canvas 
                 xpos += (imagesWidth[i - 1]) ? imagesWidth[i - 1] + 20 : 0;
                 singleImg = new Image();
-                singleImg.src = fs.readFileSync(path.join(__dirname, 'vpscreens', img));
+                singleImg.src = fs.readFileSync(path.join(__dirname, viewportsDir.replace(/[/.]/g, ''), img));
                 ctx.drawImage(singleImg, xpos, 0);
-
-                // console.log('img', img);
-                // console.log('imagesWidth[i - 1]', imagesWidth[i - 1]);
-                // console.log('xpos', xpos);
             });
 
-            canvas.createPNGStream().pipe(fs.createWriteStream(path.join(__dirname, 'pgscreens', (scrapestatus - 1) + '-' + imageName + '.png')));
+            canvas.createPNGStream().pipe(fs.createWriteStream(path.join(__dirname, pagesDir.replace(/[/.]/g, ''), scrapestatus + '-' + imageName + '.png')));
+            spinner.succeed('[' + leftPad(scrapestatus, String(pages.length).length, 0) + ' of ' + pages.length + '] - ' + chalk.green(pages[i].title));
 
             if ( scrapestatus != pages.length ) {
                 screenscrape(scrapestatus);
             } else {
-                console.log(' -- Screenscrape has finished!');
+                spinner.stop();
+                console.log('');
             }
         });
 
