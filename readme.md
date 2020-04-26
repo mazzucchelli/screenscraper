@@ -37,3 +37,12 @@ Populate `pages.json` file
 ```
 
 Run: `npm run start` or `node screens.js`
+
+### Todo
+
+- [x] viewport screens
+- [x] compress screenshots
+- [x] zip screenshots
+- [ ] enable wetransfer
+- [x] get urls from json
+- [ ] get urls from xml

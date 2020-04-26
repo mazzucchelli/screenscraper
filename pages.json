@@ -1,6 +1,14 @@
-[ 
+[
     {
-        "title": "example.com",
+        "title": "example",
         "url": "http://example.com"
+    },
+    {
+        "title": "home",
+        "url": "https://it.diesel.com/it/home"
+    },
+    {
+        "title": "login",
+        "url": "https://it.diesel.com/it/login"
     }
 ]

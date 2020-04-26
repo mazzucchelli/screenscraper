@@ -1,0 +1,14 @@
+{
+    "mode": {
+        "no-compress": "",
+        "save-vp": "",
+        "save-pg": ""
+    },
+    "paths": {
+        "vp_screens": "./vpscreens/",
+        "pg_screens": "./pgscreens/",
+        "compressed": "",
+        "zipped": ""
+    },
+    "viewports": [375, 768, 1280]
+}
